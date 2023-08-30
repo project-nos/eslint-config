@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "extends": "./lib/index.js"
+    }
+  ]
+}
