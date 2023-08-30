@@ -1,15 +1,12 @@
-import {type Linter} from 'eslint'
+import { type Linter } from "eslint";
 
 const config: Linter.Config = {
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'prettier'
-    ],
-    plugins: [
-        '@typescript-eslint'
-    ],
-    parser: '@typescript-eslint/parser'
-}
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "./base",
+  ],
+};
 
-export = config
+export = config;
