@@ -6,7 +6,6 @@
     "moduleResolution": "nodenext"
   },
   "include": [
-    "src/**/*.ts",
-    "commitlint.config.js"
+    "src/**/*.ts"
   ]
 }
