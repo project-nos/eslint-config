@@ -2,8 +2,6 @@ import { type Linter } from "eslint";
 
 const config: Linter.Config = {
   rules: {
-    // https://eslint.org/docs/rules/accessor-pairs
-    "accessor-pairs": "off",
     // https://eslint.org/docs/rules/array-callback-return
     "array-callback-return": ["error", { allowImplicit: true }],
     // https://eslint.org/docs/rules/block-scoped-var
@@ -32,14 +30,8 @@ const config: Linter.Config = {
     "no-caller": "error",
     // https://eslint.org/docs/rules/no-constructor-return
     "no-constructor-return": "error",
-    // https://eslint.org/docs/rules/no-div-regex
-    "no-div-regex": "off",
     // https://eslint.org/docs/rules/no-else-return
     "no-else-return": ["error", { allowElseIf: false }],
-    // https://eslint.org/docs/latest/rules/no-empty-static-block
-    "no-empty-static-block": "off",
-    // https://eslint.org/docs/rules/no-eq-null
-    "no-eq-null": "off",
     // https://eslint.org/docs/rules/no-eval
     "no-eval": "error",
     // https://eslint.org/docs/rules/no-extend-native
@@ -57,10 +49,6 @@ const config: Linter.Config = {
         string: true,
       },
     ],
-    // https://eslint.org/docs/rules/no-implicit-globals
-    "no-implicit-globals": "off",
-    // https://eslint.org/docs/rules/no-invalid-this
-    "no-invalid-this": "off",
     // https://eslint.org/docs/rules/no-iterator
     "no-iterator": "error",
     // https://eslint.org/docs/rules/no-labels
@@ -149,10 +137,6 @@ const config: Linter.Config = {
     "no-self-compare": "error",
     // https://eslint.org/docs/rules/no-sequences
     "no-sequences": "error",
-    // https://eslint.org/docs/rules/no-unmodified-loop-condition
-    "no-unmodified-loop-condition": "off",
-    // https://eslint.org/docs/rules/no-useless-call
-    "no-useless-call": "off",
     // https://eslint.org/docs/rules/no-useless-concat
     "no-useless-concat": "error",
     // https://eslint.org/docs/rules/no-useless-return
@@ -166,10 +150,6 @@ const config: Linter.Config = {
     ],
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: true }],
-    // https://eslint.org/docs/rules/prefer-named-capture-group
-    "prefer-named-capture-group": "off",
-    // https://eslint.org/docs/rules/prefer-object-has-own
-    "prefer-object-has-own": "off",
     // https://eslint.org/docs/rules/prefer-regex-literals
     "prefer-regex-literals": [
       "error",
@@ -179,8 +159,6 @@ const config: Linter.Config = {
     ],
     // https://eslint.org/docs/rules/radix
     radix: "error",
-    // https://eslint.org/docs/rules/require-unicode-regexp
-    "require-unicode-regexp": "off",
     // https://eslint.org/docs/rules/vars-on-top
     "vars-on-top": "error",
     // https://eslint.org/docs/rules/yoda
