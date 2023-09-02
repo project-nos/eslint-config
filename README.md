@@ -9,8 +9,6 @@
 
 ### A more restrictive eslint ruleset for your Spryker project
 
-This package exports [a flat ESLint configuration](https://eslint.org/docs/latest/use/configure/configuration-files-new).
-
 ## Installation and Usage
 
 1. Install the package
