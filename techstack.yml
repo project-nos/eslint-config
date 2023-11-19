@@ -1,0 +1,212 @@
+repo_name: project-nos/eslint-config
+report_id: 2661cd70b539f44c4bc62abb71d268f0
+repo_type: Public
+timestamp: '2023-11-19T18:29:18+00:00'
+requested_by: andreaspenz
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-08-30 17:32:07.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-08-30 17:32:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:35:01.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-08-30 17:32:07.000000000 Z
+- name: "@types/eslint"
+  description: TypeScript definitions for eslint
+  package_url: https://www.npmjs.com/@types/eslint
+  version: 8.44.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 15.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: eslint-plugin-eslint-comments
+  description: Additional ESLint rules for ESLint directive comments
+  package_url: https://www.npmjs.com/eslint-plugin-eslint-comments
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: andreaspenz
+  last_updated_on: 2023-09-02 09:24:56.000000000 Z
